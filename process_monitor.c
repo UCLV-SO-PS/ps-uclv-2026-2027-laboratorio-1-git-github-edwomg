@@ -7,7 +7,7 @@
 
 void mostrar_info_sistema() {
     printf("=== Monitor de Procesos del Sistema ===\n");
-    printf("Versión: 1.1 - Estable\n");
+    printf("Versión: 1.5 - Main\n");
 
     struct passwd *pw = getpwuid(getuid());
     if (pw) {
